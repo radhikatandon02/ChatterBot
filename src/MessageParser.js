@@ -5,6 +5,12 @@ class MessageParser {
   
     parse(message) {
       const lowerCaseMessage = message.toLowerCase()
+
+      if (lowerCaseMessage.includes("custom question")) {
+          // Extract the question from the message and pass it to handleCustomQuestion
+          const question = lowerCaseMessage.replace("custom question", "").trim();
+          this.actionProvider.handleCustomQuestion(question);
+      }
       
       if (lowerCaseMessage.includes("hello how are you?")) {
         this.actionProvider.greet()

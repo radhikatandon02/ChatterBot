@@ -5,7 +5,7 @@ import LinkList from "./components/LinkList/LinkList";
 
 
 const config = { 
-  botName: "LearningBot",
+  botName: "LinkMaster",
   initialMessages: [
     createChatBotMessage("Hi, I'm here to help. What do you want to learn?", {
       widget: "learningOptions",

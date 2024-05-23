@@ -22,7 +22,7 @@ class ActionProvider {
 
     handleDataVisualList = () => {
       const message = this.createChatBotMessage(
-        "Fantastic, I've got the following resources to help you get started with Data Visalization:",
+        "Great, I've got the following resources to help you get started with Data Visalization:",
         {
           widget: "dataVisualLinks",
         }
@@ -33,7 +33,7 @@ class ActionProvider {
 
     handleAPIList = () => {
       const message = this.createChatBotMessage(
-        "Fantastic, I've got the following resources to learn about APIs:",
+        "Impressive, I've got the following resources to help you cover everything about APIs:",
         {
           widget: "apiLinks",
         }
@@ -44,7 +44,7 @@ class ActionProvider {
 
     handleInterviewPrepList = () => {
       const message = this.createChatBotMessage(
-        "Fantastic, I've got the following resources for your Interview Preparation:",
+        "Incredible, Here are your resources for Interview Preparation:",
         {
           widget: "interviewPrepLinks",
         }
