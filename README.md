@@ -12,10 +12,7 @@ LinkMaster is a React-based chatbot built using the `react-chatbot-kit` library.
 
 ## Built With
 - **React**
-- **react-chatbot-kit**
-      - MessageParser.js
-      - ActionProvider.js
-      - config.js
+- **react-chatbot-kit** - MessageParser.js, ActionProvider.js, config.js
 
 ## Usage
 Once the development server is running, you can access LinkMaster in your browser. Simply start a conversation with the bot, and it will provide you with links to resources based on your queries related to Data Visualization, Interview Preparation, APIs, and JavaScript.
